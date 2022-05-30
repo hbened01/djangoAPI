@@ -88,7 +88,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'CLIENT': {
-            'host': 'mongodb+srv://hbenedito:zaq12wsx@cluster0.9egbl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+            'host': 'mongodb+srv://hbenedito@cluster0.9egbl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
             'name': 'python-project-db',
             'authMechanism': 'SCRAM-SHA-1' #For atlas cloud db
         }
